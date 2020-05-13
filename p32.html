@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p32</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  function pintar(objeto,col)
+  {
+    objeto.style.backgroundColor=col;
+  }
+</script>
+
+<table border="1">
+  <tr>
+    <td onMouseOver="pintar(this,'#f00')" 
+        onMouseOut="pintar(this,'#ff637d')">rojo pastel</td>
+    <td onMouseOver="pintar(this,'#0f0')" 
+        onMouseOut="pintar(this,'#fff87f')">amarillo suave</td>
+    <td onMouseOver="pintar(this,'#00f')" 
+        onMouseOut="pintar(this,'#66d7d1')">azul</td>
+  </tr>
+</table>
+
+</body>
+</html>
